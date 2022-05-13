@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hackers Page</title>
+<style>
+body{
+font-size:30px;
+background-color:black;
+font-family:arial;
+}
+button{
+background-color:black;
+border:none;
+color:limegreen;
+font-weight:bold;
+font-size:30px;
+}
+input{
+text-align:top-left;
+background-color:black;
+width:950px;
+height:100px;
+border:1px solid black;
+color:limegreen;
+font-size:30px;
+font-weight:bold;
+}
+select{
+width:300px;
+font-size:30px;
+font-weight:bold;
+padding:10px;
+}
+p{
+color:ed;
+}
+div{
+display:inline;
+}
+.div1{
+color:limegreen;
+animation-name:div1;
+animation-duration:1s;
+animation-iteration-count:1;
+}
+
+.div2{
+color:limegreen;
+animation-name:div2;
+animation-duration:5s;
+animation-iteration-count:1;
+}
+text4{
+display:none;
+}
+text5{
+display:none;
+}
+text6{
+display:none;
+}
+text7{
+display:none;
+}
+.div3{
+color:limegreen;
+animation-name:div3;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}
+h4{
+color:limegreen;
+}
+img{
+width:300px;
+height:200px;
+}
+h3{
+margin-left:260px;
+animation-name:heading;
+animation-duration:0.9s;
+animation-iteration-count:1;
+text-align:center;
+border-radius:10px;
+}
+
+@keyframes heading {
+0%{
+color:limegreen;
+opacity:0%;
+}
+20%{
+color:limegreen;
+opacity:100%;
+}
+50%{
+color:limegreen;
+opacity:0%;
+}
+70%{
+color:limegreen;
+opacity:100%;
+}
+100%{
+opacity:0%;
+}
+}
+
+@keyframes div1 {
+0%{
+color:limegreen;
+opacity:0%;
+}
+100%{
+color:limegreen;
+opacity:100%;
+}
+}
+
+@keyframes div2 {
+0%{
+color:limegreen;
+opacity:0%;
+}
+100%{
+opacity:100%;
+}
+}
+
+@keyframes div3 {
+0%{
+color:limegreen;
+opacity:0%;
+}
+20%{
+color:limegreen;
+opacity:100%;
+}
+50%{
+color:limegreen;
+opacity:0%;
+}
+70%{
+color:limegreen;
+opacity:100%;
+}
+100%{
+opacity:0%;
+}
+}
+</style>
+</head>
+<body>
+<div>
+<h3>LOADING...</h3>
+<div>
+<div class="div1"><b>HELLO</b></div>
+<div class="div2"><b>UNKNOWN</b><div>
+<div class="div3"><b>_<b></div>
+</div>
+</div>
+<br><br><br>
+<h4><b>Hack Email</b></h4>
+<input id="input" type="text">
+<br>
+<br>
+<button onclick="hacked()">HACK</button>
+<p id="text"></p>
+<button id="button2"></button>
+<p id="text2"></p>
+<button id="button3"></button>
+<button id="button4"></button>
+<h4><b>Hack WiFi</b></h4>
+<input type="text" id="inputTwo">
+<br><br>
+<button id="button5" onclick="hackWifi()">HACK</button>
+<p id="text3"></p>
+<br>
+<p id="text4">PTCL-BB</p>
+<p id="text5">ASIF</p>
+<p id="text6">QUDSIA</p>
+<p id="text7">MONACO</p>
+
+
+<script>
+var text = document. getElementById("text");
+var text2 = document. getElementById("text2");
+var text3 = document. getElementById("text3");
+var text4 = document. getElementById("text4").value;
+var text5 = document. getElementById("text5").value;
+var text6 = document. getElementById("text6").value;
+var text7 = document. getElementById("text7").value;
+var button2 = document. getElementById("button2");
+var button3 = document. getElementById("button3");
+var button4 = document. getElementById("button4");
+
+
+
+function hacked(){
+text.innerHTML = ("Hacked Successfully" + " " +"⚠");
+text.style.color = "red";
+button2.innerHTML = "Show Information";
+button2.onclick = showPassword;
+}
+
+function showPassword(){
+text2.innerHTML="Password is <b>muzamil555</b> <br>Phone.No is <b>03165111441</b> <br>Name is <b>Muzamil Arif</b> <br>County name is <b>Pakistan</b> <br>City name is <b>Islamabad</b> <br>Age is <b>13</b><br>Here Is His Photo<img src=https://i.ibb.co/VTNr3Bz/Myphoto.jpg;>";
+text2.style.color="red";
+button3.innerHTML ="Hide";
+button3.onclick = hide;
+}
+
+function hide(){
+text2.style.display = "none";
+button4. innerHTML = "Show";
+button4.onclick = show;
+}
+
+function show(){
+text2.style.display = "block";
+}
+
+function hackWifi(){
+var input = document.getElementById("inputTwo").value;
+
+if (input == text4) {
+text3.innerHTML="Network PTCL-BB HACKED <br> Here is the password <b>2646e672<b>";
+text3.style.color = "red";
+}
+else if (input == text5) {
+text3.innerHTML="Network ASIF HACKED <br> Here is the password <b>ptcl8050<b>";
+text3.style.color = "red";
+}
+else if (input == text6) {
+text3.innerHTML= "This network signal is fair try other networks";
+text3.style.color = "red";
+}
+else if (input == text7) {
+text3.innerHTML= "This network signal is fair try other networks";
+text3.style.color = "red";
+}
+else{
+text3.innerHTML= "Error 183814";
+text3.style.color = "red";
+}
+
+}
+
+</script>
+</body>
+</html>
+    

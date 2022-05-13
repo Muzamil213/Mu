@@ -1,2 +1,2 @@
-# Mu
+# Mu.github.io
 Hello
